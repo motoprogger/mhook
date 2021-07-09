@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS ?= -DUNICODE -D_DEBUG -O2 -I.
-CXXFLAGS ?= -DUNICODE -D_DEBUG -O2 -I.
+CFLAGS ?= -DUNICODE -O2 -I.
+CXXFLAGS ?= -DUNICODE -O2 -I.
 
 installdir = ..\\dist
 
